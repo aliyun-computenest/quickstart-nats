@@ -675,7 +675,10 @@ NATS 目前逐步演变为一个生态，可以实践、演示的功能还非常
 
 # 参考文档
 [1]: nats cluster creation: [https://docs.nats.io/running-a-nats-service/nats_docker#creating-a-nats-cluster](https://docs.nats.io/running-a-nats-service/nats_docker#creating-a-nats-cluster)
+
 [2]: jetString cluster: [https://docs.nats.io/running-a-nats-service/configuration/clustering/jetstream_clustering](https://docs.nats.io/running-a-nats-service/configuration/clustering/jetstream_clustering)
+
 [3]: js walkthrough： [https://docs.nats.io/nats-concepts/jetstream/js_walkthrough](https://docs.nats.io/nats-concepts/jetstream/js_walkthrough)
+
 [4]: [基于NATS JetStream构建分布式事件流系统](https://www.jianshu.com/p/27a49b9d4306)
 
