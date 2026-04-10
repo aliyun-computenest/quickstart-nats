@@ -1,82 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F# NATS Community Edition Service Instance Deployment Documentation</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2, h3, h4 {
-            margin-top: 24px;
-            margin-bottom: 16px;
-            font-weight: 600;
-            line-height: 1.25;
-        }
-        h1 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
-        h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
-        h3 { font-size: 1.25em; }
-        code {
-            background-color: rgba(27,31,35,.05);
-            border-radius: 3px;
-            font-size: 85%;
-            margin: 0;
-            padding: .2em .4em;
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-        }
-        pre {
-            background-color: #f6f8fa;
-            border-radius: 3px;
-            font-size: 85%;
-            line-height: 1.45;
-            overflow: auto;
-            padding: 16px;
-        }
-        pre code {
-            background-color: transparent;
-            border: 0;
-            display: inline;
-            line-height: inherit;
-            margin: 0;
-            overflow: visible;
-            padding: 0;
-            word-wrap: normal;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 16px;
-        }
-        th, td {
-            border: 1px solid #dfe2e5;
-            padding: 6px 13px;
-        }
-        th {
-            background-color: #f6f8fa;
-            font-weight: 600;
-        }
-        ul, ol {
-            padding-left: 2em;
-            margin-bottom: 16px;
-        }
-        li {
-            margin-bottom: 0.25em;
-        }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
 <body>
 
 <h1 id="overview">Overview</h1>
@@ -779,14 +701,6 @@ State:
     <li><strong>Multi-Tenant Management</strong>: Multi-tenant account configuration management based on the <a href="https://docs.nats.io/using-nats/nats-tools/nsc">nsc</a> tool.</li>
     <li><strong>Edge Scenarios</strong>: To support edge computing and IoT scenarios, NATS supports deploying local NATS clusters at the edge to interact with central clusters. This allows edge devices to quickly produce business data by connecting to the local edge cluster without strongly relying on the network stability with the remote central cluster. See <a href="https://docs.nats.io/running-a-nats-service/configuration/leafnodes">Edge Scenario Reference</a>.</li>
 </ul>
-
-<h1 id="references">References</h1>
-<ol>
-    <li>nats cluster creation: <a href="https://docs.nats.io/running-a-nats-service/nats_docker#creating-a-nats-cluster">https://docs.nats.io/running-a-nats-service/nats_docker#creating-a-nats-cluster</a></li>
-    <li>JetStream cluster: <a href="https://docs.nats.io/running-a-nats-service/configuration/clustering/jetstream_clustering">https://docs.nats.io/running-a-nats-service/configuration/clustering/jetstream_clustering</a></li>
-    <li>JS walkthrough: <a href="https://docs.nats.io/nats-concepts/jetstream/js_walkthrough">https://docs.nats.io/nats-concepts/jetstream/js_walkthrough</a></li>
-    <li><a href="https://www.jianshu.com/p/27a49b9d4306">Building Distributed Event Streaming Systems Based on NATS JetStream</a></li>
-</ol>
 
 </body>
 </html>
